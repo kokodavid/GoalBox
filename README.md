@@ -1,1 +1,1 @@
-![Alt text](app/src/main/res/drawable/all.jpg?raw=true "Screenshot")
+![APP DEMO](app/src/main/res/drawable/all.png?raw=true "Screenshot")
