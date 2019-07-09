@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GoalBox</string>
+
+    <string name="app_nme">Intro Slider</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">GoalBox </string>
+    <string name="slide_1_desc">Welcome To GoalBox Sports.
+        </string>
+
+    <string name="slide_2_title">Best Leagues Worldwide</string>
+    <string name="slide_2_desc">We have your favourite leagues from all over the world </string>
+
+    <string name="slide_3_title">All Fixtures</string>
+    <string name="slide_3_desc">Dont miss any game because we have fixtures</string>
+
+    <string name="slide_4_title">Best Analytics </string>
+    <string name="slide_4_desc">And obviously the best match analysis on the planet</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
