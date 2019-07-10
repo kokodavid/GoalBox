@@ -18,8 +18,11 @@ android {
         }
     }
 
-
+    buildTypes.each {
+        it.buildConfigField 'String', 'BallToken', BallToken
+    }
 }
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -31,8 +34,7 @@ dependencies {
 
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 
-   /* implementation 'com.konghq:unirest-java:2.3.08:standalone'
-    implementation 'com.konghq:unirest-java:2.3.08'*/
+
 
 
 }
