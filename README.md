@@ -8,8 +8,6 @@ GOALBOX SPORTS
 <a href="url"><img src=app/src/main/res/drawable/four.png align="left" height="600" width="300" ></a>
 <a href="url"><img src=app/src/main/res/drawable/last.png align="right" height="600" width="300" ></a>
 
-## NAME OF THE PROJECT
-TIKI TAKA
 
 ## DESCRIPTION
 The GOALBOX SPORTS application is the most convinient application to be used when one needs to stay updated with their favourite football teams and also their Rivals .
