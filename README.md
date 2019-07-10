@@ -1,5 +1,6 @@
 ## NAME OF THE PROJECT
-GoalBox Sports
+GOALBOX SPORTS
+
 
 <a href="url"><img src=app/src/main/res/drawable/firstpage.png align="left" height="600" width="300" ></a>
 <a href="url"><img src=app/src/main/res/drawable/secondpage.png align="right" height="600" width="300" ></a>
@@ -11,8 +12,8 @@ GoalBox Sports
 TIKI TAKA
 
 ## DESCRIPTION
-The Tiki Taka application is the most convinient application to be used when one need a ticket for an event .A new user can buy a ticket even without signing up for an account
-The Tiki Taka app also has the most convinient and best user experience.
+The GOALBOX SPORTS application is the most convinient application to be used when one needs to stay updated with their favourite football teams and also their Rivals .
+The GOALBOX SPORTS app also has the most convinient and best user experience.
 
 ## TECHNOLOGIES USED
 The app uses the following technologies
@@ -36,7 +37,7 @@ For help concerning the application contact the developer through the above prov
 
 
 ## KNOWN BUGS
-The app has no know bugs
+The app has no know bugs.Because the app is still in development
 
 ## LICENCE
 Copyright (c) 2019 David Mochoge
