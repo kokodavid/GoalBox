@@ -27,7 +27,7 @@ The app uses the following technologies
   <ul>
       <li>Android Developer</li>
       <li>TEL:0708207512</li>
-      <li>EMAIL:kokodavid78@gmail.com</li>
+      <li>EMAIL:david.mo.okoko@gmail.com</li>
   </ul>
 
 ## SUPPORT
