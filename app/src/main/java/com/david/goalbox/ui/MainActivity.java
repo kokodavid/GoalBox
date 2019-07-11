@@ -1,10 +1,11 @@
-package com.david.goalbox;
+package com.david.goalbox.ui;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.david.goalbox.R;
 
 
 public class MainActivity extends AppCompatActivity {

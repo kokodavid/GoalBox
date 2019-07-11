@@ -1,4 +1,8 @@
-package com.david.goalbox;
+package com.david.goalbox.services;
+
+import com.david.goalbox.util.Constants;
+import com.david.goalbox.models.Fixtures;
+import com.david.goalbox.models.Leagues;
 
 import org.json.JSONArray;
 import org.json.JSONException;

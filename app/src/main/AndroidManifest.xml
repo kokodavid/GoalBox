@@ -11,16 +11,16 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"></activity>
-        <activity android:name=".FirstActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".FixturesActivity" />
+        <activity android:name=".ui.Main2Activity"></activity>
+        <activity android:name=".ui.FirstActivity" />
+        <activity android:name=".ui.HomeActivity" />
+        <activity android:name=".ui.FixturesActivity" />
 
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".ui.WelcomeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

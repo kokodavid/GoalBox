@@ -1,4 +1,4 @@
-package com.david.goalbox;
+package com.david.goalbox.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.david.goalbox.models.Fixtures;
+import com.david.goalbox.ui.HeadToHeadActivity;
+import com.david.goalbox.R;
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;

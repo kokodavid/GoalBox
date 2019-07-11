@@ -1,4 +1,4 @@
-package com.david.goalbox;
+package com.david.goalbox.models;
 
 
 public class Leagues {

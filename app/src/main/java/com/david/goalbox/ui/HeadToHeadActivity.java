@@ -1,10 +1,12 @@
-package com.david.goalbox;
+package com.david.goalbox.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.david.goalbox.R;
+import com.david.goalbox.models.Fixtures;
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;

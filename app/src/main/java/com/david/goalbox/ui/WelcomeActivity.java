@@ -1,4 +1,4 @@
-package com.david.goalbox;
+package com.david.goalbox.ui;
 
 
 import android.content.Context;
@@ -18,6 +18,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.david.goalbox.R;
+import com.david.goalbox.util.PrefManager;
 
 public class WelcomeActivity extends AppCompatActivity {
 

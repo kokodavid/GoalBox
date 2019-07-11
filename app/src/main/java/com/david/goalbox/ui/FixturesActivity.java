@@ -1,10 +1,15 @@
-package com.david.goalbox;
+package com.david.goalbox.ui;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.david.goalbox.R;
+import com.david.goalbox.adapters.FixtureAdapter;
+import com.david.goalbox.models.Fixtures;
+import com.david.goalbox.services.BallService;
 
 import java.io.IOException;
 import java.util.ArrayList;

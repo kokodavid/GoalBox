@@ -1,4 +1,4 @@
-package com.david.goalbox;
+package com.david.goalbox.ui;
 
 import android.support.v7.app.AppCompatActivity;
 
