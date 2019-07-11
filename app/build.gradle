@@ -18,8 +18,9 @@ android {
         }
     }
 
+
     buildTypes.each {
-        it.buildConfigField 'String', 'BallToken', BallToken
+        it.buildConfigField 'String', 'X_RapidAPI_Key', BallToken
     }
 }
 
