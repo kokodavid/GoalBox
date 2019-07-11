@@ -49,16 +49,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="START DATE"
-                   />
-
-                <TextView
                     android:id="@+id/league_start_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2018-08-03"
+                    android:text="2018-08-03 ->"
                    />
             </LinearLayout>
 
@@ -67,12 +61,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="END DATE"
-                   />
 
                 <TextView
                     android:id="@+id/league_end_date"

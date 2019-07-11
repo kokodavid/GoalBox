@@ -1,5 +1,6 @@
 package com.david.goalbox.ui;
 
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
+import dmax.dialog.SpotsDialog;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
@@ -28,7 +30,7 @@ public class FixturesActivity extends AppCompatActivity {
 
     private ArrayList<Fixtures> mFixture = new ArrayList<>();
 
-    ProgressDialog progressDialog;
+    SpotsDialog spotsDialog;
 
 
     @Override
@@ -47,7 +49,6 @@ public class FixturesActivity extends AppCompatActivity {
 
     public void initRecyclerView(String leagueId)
     {
-        progressDialog.show();
         final BallService footballService = new BallService();
 
         footballService.getFixtures(new Callback() {
@@ -56,7 +57,7 @@ public class FixturesActivity extends AppCompatActivity {
                 FixturesActivity.this.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        progressDialog.hide();
+                        spotsDialog.hide();
 
                     }
                 });
@@ -71,7 +72,6 @@ public class FixturesActivity extends AppCompatActivity {
                 FixturesActivity.this.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        progressDialog.hide();
 
 
                         fixtureAdapter = new FixtureAdapter(mFixture, FixturesActivity.this);
@@ -85,9 +85,12 @@ public class FixturesActivity extends AppCompatActivity {
     }
 
     private void createProgressDialog() {
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setTitle("Loading...");
-        progressDialog.setMessage("Fetching Fixtures...");
-        progressDialog.setCancelable(false);
+        new SpotsDialog.Builder()
+                .setContext(this)
+                .setMessage("Loading Fixtures You can Stop once they appear")
+                .build()
+                .show();
     }
+
+
 }
