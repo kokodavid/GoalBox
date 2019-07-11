@@ -11,8 +11,11 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FirstActivity"></activity>
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".FirstActivity" />
         <activity android:name=".HomeActivity" />
+        <activity android:name=".FixturesActivity" />
+
         <activity
             android:name=".WelcomeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
