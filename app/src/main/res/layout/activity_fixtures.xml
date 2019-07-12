@@ -19,12 +19,21 @@
         />
 
 
-    <android.support.v7.widget.RecyclerView
-        android:background="@color/white"
-        android:id="@+id/fixtures_recycler"
-        tools:listitem="@layout/fixture_item"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fixtures_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:listitem="@layout/fixture_item"
         ></android.support.v7.widget.RecyclerView>
     </LinearLayout>
 
