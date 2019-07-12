@@ -17,7 +17,8 @@ buildscript {
 allprojects {
     repositories {
         maven{
-            url 'https://raw.github.com/zeeshanejaz/unirest-android/mvn-repo'
+            url "http://dl.bintray.com/jlmd/maven"
+
         }
 
 

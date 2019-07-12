@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mesiik"
     tools:context=".ui.FixturesActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:background="@drawable/giphy"
+        />
 
 
     <android.support.v7.widget.RecyclerView
+        android:background="@color/white"
         android:id="@+id/fixtures_recycler"
         tools:listitem="@layout/fixture_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ></android.support.v7.widget.RecyclerView>
-</RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

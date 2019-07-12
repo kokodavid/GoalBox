@@ -43,7 +43,7 @@ public class FixturesActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        createProgressDialog();
+
         initRecyclerView(getIntent().getStringExtra("league_id"));
     }
 
@@ -84,13 +84,7 @@ public class FixturesActivity extends AppCompatActivity {
         },leagueId);
     }
 
-    private void createProgressDialog() {
-        new SpotsDialog.Builder()
-                .setContext(this)
-                .setMessage("Loading Fixtures You can Stop once they appear")
-                .build()
-                .show();
-    }
+
 
 
 }

@@ -14,6 +14,7 @@
         <activity android:name=".ui.Main2Activity"
             android:theme="@style/NoActionBarTheme"></activity>
         <activity android:name=".ui.FirstActivity" />
+
         <activity android:name=".ui.HomeActivity" />
         <activity android:name=".ui.FixturesActivity"
             android:theme="@style/NoActionBarTheme" />

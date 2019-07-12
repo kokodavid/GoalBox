@@ -46,7 +46,6 @@ public class Main2Activity extends AppCompatActivity {
 
         ButterKnife.bind(this);
         initRecyclerView();
-        createProgressDialog();
 
     }
 
